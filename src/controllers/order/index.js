@@ -17,7 +17,7 @@ const orderSchema = Joi.object({
   start_time: Joi.date().required(),
   end_time: Joi.date().required(),
   is_driver: Joi.boolean().required(),
-  promo: Joi.string(),
+ promo: Joi.string().allow('', null).optional(),
   payment_method: Joi.string().required(),
 });
 
