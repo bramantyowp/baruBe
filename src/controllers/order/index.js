@@ -24,12 +24,12 @@ const orderSchema = Joi.object({
 const PROMOS = [{
   title: "NEWUSER",
   discount: 25,
-  expired_date: "25/11/2024"
+  expired_date: "25/11/2025"
 },
 {
   title: "SEWASUKASUKA",
   discount: 15,
-  expired_date: "20/11/2024"
+  expired_date: "20/11/2025"
 }]
 
 class OrderController extends BaseController {
